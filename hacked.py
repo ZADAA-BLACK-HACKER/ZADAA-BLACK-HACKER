@@ -48,11 +48,11 @@ else:
 
         if '32' in x and  'Android' in distro:
 
-            os.system('chmod 777 h32 && ./h32')
+            os.system('chmod 777 hacked && ./hacked')
 
         elif '64' in x and 'Android' in distro:
 
-            os.system('chmod 777 h64 && ./h64')
+            os.system('chmod 777 hacked && ./hacked')
 
         else:
 
